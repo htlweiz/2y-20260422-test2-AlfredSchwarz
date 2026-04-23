@@ -1,6 +1,6 @@
-/// \file
-/// \author
-/// \date
+/// Programm 1
+/// Alfred Schwarz
+/// 23.04.2026
 
 #include <inttypes.h>
 #include <stdio.h>
@@ -17,17 +17,16 @@ int main(int argc, char **argv)
          for (int i = 0; i < number; i++)
          {
             printf("%d", i);
-            printf("\n");
          }
+         printf("\n");
       }
-         else
+      else
+      {
+         for (int i = 0; i > number; i++)
          {
-            for (int i = 0; i > number; i++)
-            {
-               printf("%d", i);
-               printf("\n");
-            }
+            printf("%d", i);
          }
-            ;
-      }while (number != 0);
-   } 
+         printf("\n");
+      };
+   } while (number != 0);
+}
